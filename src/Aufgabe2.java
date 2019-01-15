@@ -10,12 +10,11 @@ public class Aufgabe2
 
                 int zahl1 = getUserInput();
 
-                System.out.println("Die eingegebene Zahl lautet: " + zahl1);
+                System.out.println("Die eingegebene Zahl lautet " + zahl1);
 
                 break;
 
             } catch(NumberFormatException ex){
-
                 JOptionPane.showMessageDialog(null, "Sie haben einen String eingegeben!", "Fehler!", JOptionPane.ERROR_MESSAGE);
             }
         }
